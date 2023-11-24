@@ -1,0 +1,82 @@
+/* MessageList styles */
+.message-list {
+    width: 264px;
+height: 232px;
+flex-shrink: 0;
+border-radius: 0px 8px 8px 8px;
+border: 1px solid #F0F0F0;
+background: #FFF;
+  }
+  
+  .message-list li {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .message-list li strong {
+    font-weight: bold;
+  }
+  
+  /* Right-aligned messages for current user */
+  .message-list li[style*='right'] {
+    text-align: right;
+    background-color: #d6eef9;
+  }
+  .left-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .left-side-chat{
+    width: 70%;
+flex-shrink: 0;
+border-radius: 0px 8px 8px 8px;
+border: 1px solid #F0F0F0;
+background: #FFF;
+color: #252525;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: -0.3px;
+padding: 5px;
+left: 0;
+  }
+  .right-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .right-side-chat{
+    width: 70%;
+flex-shrink: 0;
+border-radius: 0px 8px 8px 8px;
+background: #178560;
+color: #252525;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: -0.3px;
+padding: 5px;
+align-items: end;
+  }
+
+  .message-time-text{
+    color: #555;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.3px;
+margin-top: 5px;
+    margin-bottom: 5px;
+  }
