@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="chat-popup">
       <div className='icon-set'>
+      {!isOpen && (
       <img src={chat_icon} className='chat-icon'  onClick={toggleChat}></img>
+      )}
       {isOpen && (
         // <button className="chat-icon" onClick={toggleChat}>
         //   Chat
