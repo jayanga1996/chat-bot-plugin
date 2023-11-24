@@ -6,7 +6,7 @@ import chat_icon from '../src/assets/Frame 5182.png'
 import chat_close_icon from '../src/assets/Group 3178.png'
 
 
-function App() {
+function SpemaiChatSdk() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleChat = () => {
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default SpemaiChatSdk;
