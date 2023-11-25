@@ -2,7 +2,7 @@
   "name": "spemai-wed-chat-sdk",
   "version": "0.1.2",
   "private": false,
-  "main": "./src/SpemaiChatSdk.js",
+  "main": "./dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
